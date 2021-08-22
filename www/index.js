@@ -1,15 +1,15 @@
 import * as snow from 'snow';
 
 (() => {
-	t(0,0);	
+	t(1,1);	
 })();
 
 function t(flag, flag2) {
 	if (flag) {
-		rustSnow(1000,1000,100000);
+		rustSnow(2000,2000,30000);
 	}
 	if (flag2) {
-		jsSnow(1000,1000,100000);
+		jsSnow(2000,2000,30000);
 	}
 }
 
